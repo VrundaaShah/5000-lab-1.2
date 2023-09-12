@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "index.html#introduction-h1",
+    "href": "index.html#introduction-h1",
+    "title": "simple_quarto_website",
+    "section": "Introduction (H1)",
+    "text": "Introduction (H1)\nWelcome to my Quarto website . Here’s some lorem ipsum text:\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+  },
+  {
+    "objectID": "index.html#two-columns-text-h2",
+    "href": "index.html#two-columns-text-h2",
+    "title": "simple_quarto_website",
+    "section": "Two Columns Text (H2)",
+    "text": "Two Columns Text (H2)\nHere’s some text in two columns:\n\ncolumn Left column . column Right column ."
+  },
+  {
+    "objectID": "index.html#bulleted-list-h3",
+    "href": "index.html#bulleted-list-h3",
+    "title": "simple_quarto_website",
+    "section": "Bulleted List (H3)",
+    "text": "Bulleted List (H3)\n\napple\nbanana\norange"
+  },
+  {
+    "objectID": "index.html#markdown-table-h2",
+    "href": "index.html#markdown-table-h2",
+    "title": "simple_quarto_website",
+    "section": "Markdown Table (H2)",
+    "text": "Markdown Table (H2)\n\n\n\nGender\nAge\n\n\n\n\nF\n12\n\n\nM\n13"
+  },
+  {
+    "objectID": "index.html#inline-math-equation-h2",
+    "href": "index.html#inline-math-equation-h2",
+    "title": "simple_quarto_website",
+    "section": "Inline Math Equation (H2)",
+    "text": "Inline Math Equation (H2)\nThis is an inline math equation: \\(F=m*a\\)."
+  },
+  {
+    "objectID": "index.html#table-of-contents-h2",
+    "href": "index.html#table-of-contents-h2",
+    "title": "simple_quarto_website",
+    "section": "Table of Contents (H2)",
+    "text": "Table of Contents (H2)\nTable of Contents will automatically be generated based on your headings."
+  },
+  {
+    "objectID": "index.html#latex-equation-h2",
+    "href": "index.html#latex-equation-h2",
+    "title": "simple_quarto_website",
+    "section": "LaTex Equation (H2)",
+    "text": "LaTex Equation (H2)\nThis is a non-inline math equation:\n\\[\nF = G\\frac{{m_1 \\cdot m_2}}{{r^2}}\n\\]"
+  },
+  {
+    "objectID": "index.html#footnote-h2",
+    "href": "index.html#footnote-h2",
+    "title": "simple_quarto_website",
+    "section": "Footnote (H2)",
+    "text": "Footnote (H2)\nThis is a footnote[^1]."
+  },
+  {
+    "objectID": "index.html#quote-h2",
+    "href": "index.html#quote-h2",
+    "title": "simple_quarto_website",
+    "section": "Quote (H2)",
+    "text": "Quote (H2)\n\nThis is a quoted text."
+  },
+  {
+    "objectID": "index.html#embedded-images-h2",
+    "href": "index.html#embedded-images-h2",
+    "title": "simple_quarto_website",
+    "section": "Embedded Images (H2)",
+    "text": "Embedded Images (H2)\nHere are two embedded images:\n\n\n\nImage 1\n\n\n\n\n\nImage 2"
+  },
+  {
+    "objectID": "index.html#embedded-video-h2",
+    "href": "index.html#embedded-video-h2",
+    "title": "simple_quarto_website",
+    "section": "Embedded Video (H2)",
+    "text": "Embedded Video (H2)\nHere’s an embedded video:"
+  },
+  {
+    "objectID": "index.html#mermaid-diagram-h2",
+    "href": "index.html#mermaid-diagram-h2",
+    "title": "simple_quarto_website",
+    "section": "Mermaid Diagram (H2)",
+    "text": "Mermaid Diagram (H2)\n```mermaid graph TD; A–&gt;B; A–&gt;C; B–&gt;D; C–&gt;D;"
+  },
+  {
+    "objectID": "slides/slides.html#slide-1",
+    "href": "slides/slides.html#slide-1",
+    "title": "Habits",
+    "section": "Slide 1",
+    "text": "Slide 1\n\nHustle\nDont give up\nCite a reference: [@Author2023]"
+  },
+  {
+    "objectID": "slides/slides.html#slide-2",
+    "href": "slides/slides.html#slide-2",
+    "title": "Habits",
+    "section": "Slide 2",
+    "text": "Slide 2\n\nYou got this\nPush through\n\n\n\nImage 1"
+  },
+  {
+    "objectID": "slides/slides.html#slide-3",
+    "href": "slides/slides.html#slide-3",
+    "title": "Habits",
+    "section": "Slide 3",
+    "text": "Slide 3\n\nMake coffee\nWork\n\n\n\nImage 2"
+  }
+]

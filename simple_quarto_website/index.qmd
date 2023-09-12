@@ -1,0 +1,85 @@
+---
+title: "simple_quarto_website"
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+# This is a Quarto website.
+
+## Introduction (H1)
+
+Welcome to my Quarto website . Here's some lorem ipsum text:
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
+
+## Two Columns Text (H2)
+
+Here's some text in two columns:
+
+::: columns
+column
+Left column .
+column
+Right column .
+:::
+
+## Bulleted List (H3)
+
+- apple
+- banana
+- orange
+
+## Markdown Table (H2)
+
+| Gender | Age |
+| ------ | ----|
+| F      | 12  |
+| M      | 13  |
+
+## Inline Math Equation (H2)
+
+This is an inline math equation: $F=m*a$.
+
+## Table of Contents (H2)
+
+Table of Contents will automatically be generated based on your headings.
+
+## LaTex Equation (H2)
+
+This is a non-inline math equation:
+
+$$
+F = G\frac{{m_1 \cdot m_2}}{{r^2}}
+$$
+
+## Footnote (H2)
+
+This is a footnote[^1].
+
+## Quote (H2)
+
+> This is a quoted text.
+
+## Embedded Images (H2)
+
+Here are two embedded images:
+
+![Image 1](images/image1.jpg)
+
+![Image 2](images/image2.jpg)
+
+## Embedded Video (H2)
+
+Here's an embedded video:
+<video src="https://www.youtube.com/watch?v=T7XuOnb2lcU" controls></video>
+
+## Mermaid Diagram (H2)
+
+```mermaid
+graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
