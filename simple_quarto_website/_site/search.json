@@ -7,6 +7,13 @@
     "text": "About this site"
   },
   {
+    "objectID": "about.html#heres-some-lorem-ipsum-text",
+    "href": "about.html#heres-some-lorem-ipsum-text",
+    "title": "About",
+    "section": "Here’s some lorem ipsum text:",
+    "text": "Here’s some lorem ipsum text:\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed cras ornare arcu dui vivamus arcu felis. Dis parturient montes nascetur ridiculus mus. Tincidunt ornare massa eget egestas purus viverra. Porttitor massa id neque aliquam vestibulum morbi. Fringilla phasellus faucibus scelerisque eleifend. Faucibus nisl tincidunt eget nullam non nisi est sit amet. Urna id volutpat lacus laoreet non. Sed pulvinar proin gravida hendrerit lectus a. Sed odio morbi quis commodo odio aenean sed adipiscing. Bibendum at varius vel pharetra vel turpis nunc. Nec dui nunc mattis enim ut tellus elementum sagittis. Nisl rhoncus mattis rhoncus urna neque viverra. Elit at imperdiet dui accumsan.\n\nWhat is Quarto\nQuarto is an open-source, extensible, and customizable platform for creating and publishing dynamic documents, reports, and websites. It’s designed to facilitate the creation of data-driven, reproducible, and interactive content in a variety of formats, including PDF, HTML, and more. Quarto is particularly well-suited for projects that involve data analysis, scientific research, technical documentation, and publishing.\n\nimport matplotlib.pyplot as plt\nimport numpy as np\n\n\n# Generate some sample data\nx = np.linspace(0, 3 * np.pi, 40)\ny = np.cos(x)\n\n# Create a plot\nplt.figure(figsize=(6, 4))\nplt.plot(x, y, label='Cos Wave', color='red')\nplt.xlabel('X-axis')\nplt.ylabel('Y-axis')\nplt.title('Cos Function')\nplt.legend()\nplt.show()"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "simple_quarto_website",
@@ -14,108 +21,129 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
-    "objectID": "index.html#introduction-h1",
-    "href": "index.html#introduction-h1",
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
     "title": "simple_quarto_website",
-    "section": "Introduction (H1)",
-    "text": "Introduction (H1)\nWelcome to my Quarto website . Here’s some lorem ipsum text:\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+    "section": "Introduction",
+    "text": "Introduction\nWelcome to my Quarto website . Here’s some lorem ipsum text:\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed cras ornare arcu dui vivamus arcu felis. Dis parturient montes nascetur ridiculus mus. Tincidunt ornare massa eget egestas purus viverra. Porttitor massa id neque aliquam vestibulum morbi. Fringilla phasellus faucibus scelerisque eleifend. Faucibus nisl tincidunt eget nullam non nisi est sit amet. Urna id volutpat lacus laoreet non. Sed pulvinar proin gravida hendrerit lectus a. Sed odio morbi quis commodo odio aenean sed adipiscing. Bibendum at varius vel pharetra vel turpis nunc. Nec dui nunc mattis enim ut tellus elementum sagittis. Nisl rhoncus mattis rhoncus urna neque viverra. Elit at imperdiet dui accumsan."
   },
   {
-    "objectID": "index.html#two-columns-text-h2",
-    "href": "index.html#two-columns-text-h2",
+    "objectID": "index.html#two-columns-text",
+    "href": "index.html#two-columns-text",
     "title": "simple_quarto_website",
-    "section": "Two Columns Text (H2)",
-    "text": "Two Columns Text (H2)\nHere’s some text in two columns:\n\ncolumn Left column . column Right column ."
+    "section": "Two Columns Text",
+    "text": "Two Columns Text\nHere’s some text in two columns:\n\n\nLeft column.\n\nRight column."
   },
   {
-    "objectID": "index.html#bulleted-list-h3",
-    "href": "index.html#bulleted-list-h3",
+    "objectID": "index.html#bulleted-list",
+    "href": "index.html#bulleted-list",
     "title": "simple_quarto_website",
-    "section": "Bulleted List (H3)",
-    "text": "Bulleted List (H3)\n\napple\nbanana\norange"
+    "section": "Bulleted List",
+    "text": "Bulleted List\n\napple\nbanana\norange"
   },
   {
-    "objectID": "index.html#markdown-table-h2",
-    "href": "index.html#markdown-table-h2",
+    "objectID": "index.html#markdown-table",
+    "href": "index.html#markdown-table",
     "title": "simple_quarto_website",
-    "section": "Markdown Table (H2)",
-    "text": "Markdown Table (H2)\n\n\n\nGender\nAge\n\n\n\n\nF\n12\n\n\nM\n13"
+    "section": "Markdown Table",
+    "text": "Markdown Table\n\n\n\nGender\nAge\n\n\n\n\nF\n12\n\n\nM\n13"
   },
   {
-    "objectID": "index.html#inline-math-equation-h2",
-    "href": "index.html#inline-math-equation-h2",
+    "objectID": "index.html#inline-math-equation",
+    "href": "index.html#inline-math-equation",
     "title": "simple_quarto_website",
-    "section": "Inline Math Equation (H2)",
-    "text": "Inline Math Equation (H2)\nThis is an inline math equation: \\(F=m*a\\)."
+    "section": "Inline Math Equation",
+    "text": "Inline Math Equation\nThis is an inline math equation: \\(F=m*a\\)."
   },
   {
-    "objectID": "index.html#table-of-contents-h2",
-    "href": "index.html#table-of-contents-h2",
+    "objectID": "index.html#table-of-contents",
+    "href": "index.html#table-of-contents",
     "title": "simple_quarto_website",
-    "section": "Table of Contents (H2)",
-    "text": "Table of Contents (H2)\nTable of Contents will automatically be generated based on your headings."
+    "section": "Table of Contents",
+    "text": "Table of Contents\nTable of Contents will automatically be generated based on your headings."
   },
   {
-    "objectID": "index.html#latex-equation-h2",
-    "href": "index.html#latex-equation-h2",
+    "objectID": "index.html#latex-equation",
+    "href": "index.html#latex-equation",
     "title": "simple_quarto_website",
-    "section": "LaTex Equation (H2)",
-    "text": "LaTex Equation (H2)\nThis is a non-inline math equation:\n\\[\nF = G\\frac{{m_1 \\cdot m_2}}{{r^2}}\n\\]"
+    "section": "LaTex Equation",
+    "text": "LaTex Equation\nThis is a non-inline math equation:\n\\[\nF = G\\frac{{m_1 \\cdot m_2}}{{r^2}}\n\\]"
   },
   {
-    "objectID": "index.html#footnote-h2",
-    "href": "index.html#footnote-h2",
+    "objectID": "index.html#footnote",
+    "href": "index.html#footnote",
     "title": "simple_quarto_website",
-    "section": "Footnote (H2)",
-    "text": "Footnote (H2)\nThis is a footnote[^1]."
+    "section": "Footnote",
+    "text": "Footnote\nHover over to see the content of the footnote 1."
   },
   {
-    "objectID": "index.html#quote-h2",
-    "href": "index.html#quote-h2",
+    "objectID": "index.html#quote",
+    "href": "index.html#quote",
     "title": "simple_quarto_website",
-    "section": "Quote (H2)",
-    "text": "Quote (H2)\n\nThis is a quoted text."
+    "section": "Quote",
+    "text": "Quote\n\nThis is a quoted text. It is used to highlight important texts."
   },
   {
-    "objectID": "index.html#embedded-images-h2",
-    "href": "index.html#embedded-images-h2",
+    "objectID": "index.html#embedded-images",
+    "href": "index.html#embedded-images",
     "title": "simple_quarto_website",
-    "section": "Embedded Images (H2)",
-    "text": "Embedded Images (H2)\nHere are two embedded images:\n\n\n\nImage 1\n\n\n\n\n\nImage 2"
+    "section": "Embedded Images",
+    "text": "Embedded Images\nHere are two embedded images:\n\n\n\nImage 1\n\n\n\n\n\nImage 2"
   },
   {
-    "objectID": "index.html#embedded-video-h2",
-    "href": "index.html#embedded-video-h2",
+    "objectID": "index.html#embedded-video",
+    "href": "index.html#embedded-video",
     "title": "simple_quarto_website",
-    "section": "Embedded Video (H2)",
-    "text": "Embedded Video (H2)\nHere’s an embedded video:"
+    "section": "Embedded Video:",
+    "text": "Embedded Video:\nHere’s an embedded video :"
   },
   {
-    "objectID": "index.html#mermaid-diagram-h2",
-    "href": "index.html#mermaid-diagram-h2",
+    "objectID": "index.html#mermaid-diagram",
+    "href": "index.html#mermaid-diagram",
     "title": "simple_quarto_website",
-    "section": "Mermaid Diagram (H2)",
-    "text": "Mermaid Diagram (H2)\n```mermaid graph TD; A–&gt;B; A–&gt;C; B–&gt;D; C–&gt;D;"
+    "section": "Mermaid Diagram",
+    "text": "Mermaid Diagram\n\n\n\n\ngraph TD;\n  A--&gt;B;\n  A--&gt;C;\n  B--&gt;D;\n  C--&gt;D;"
+  },
+  {
+    "objectID": "index.html#citations",
+    "href": "index.html#citations",
+    "title": "simple_quarto_website",
+    "section": "Citations",
+    "text": "Citations\ntitle = {Sample Title}, author = {Author, A.}, journal = {Sample Journal}, year = {2023}, volume = {1}, pages = {1-10}, }"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis is the content of the footnote. It provides additional information or context related to the text above.↩︎"
   },
   {
     "objectID": "slides/slides.html#slide-1",
     "href": "slides/slides.html#slide-1",
-    "title": "Habits",
+    "title": "Quarto website",
     "section": "Slide 1",
-    "text": "Slide 1\n\nHustle\nDont give up\nCite a reference: [@Author2023]"
+    "text": "Slide 1\n\nCitation :-\ntitle = {Sample Title}, author = {Author, A.}, journal = {Sample Journal}, year = {2023}, volume = {1}, pages = {1-10}, }"
   },
   {
     "objectID": "slides/slides.html#slide-2",
     "href": "slides/slides.html#slide-2",
-    "title": "Habits",
+    "title": "Quarto website",
     "section": "Slide 2",
     "text": "Slide 2\n\nYou got this\nPush through\n\n\n\nImage 1"
   },
   {
     "objectID": "slides/slides.html#slide-3",
     "href": "slides/slides.html#slide-3",
-    "title": "Habits",
+    "title": "Quarto website",
     "section": "Slide 3",
     "text": "Slide 3\n\nMake coffee\nWork\n\n\n\nImage 2"
+  },
+  {
+    "objectID": "slides/slides.html#code-folding",
+    "href": "slides/slides.html#code-folding",
+    "title": "Quarto website",
+    "section": "Code folding",
+    "text": "Code folding"
   }
 ]

@@ -8,45 +8,47 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 # This is a Quarto website.
 
-## Introduction (H1)
+## Introduction 
 
 Welcome to my Quarto website . Here's some lorem ipsum text:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed cras ornare arcu dui vivamus arcu felis. Dis parturient montes nascetur ridiculus mus. Tincidunt ornare massa eget egestas purus viverra. Porttitor massa id neque aliquam vestibulum morbi. Fringilla phasellus faucibus scelerisque eleifend. Faucibus nisl tincidunt eget nullam non nisi est sit amet. Urna id volutpat lacus laoreet non. Sed pulvinar proin gravida hendrerit lectus a. Sed odio morbi quis commodo odio aenean sed adipiscing. Bibendum at varius vel pharetra vel turpis nunc. Nec dui nunc mattis enim ut tellus elementum sagittis. Nisl rhoncus mattis rhoncus urna neque viverra. Elit at imperdiet dui accumsan.
 
-## Two Columns Text (H2)
+## Two Columns Text 
 
 Here's some text in two columns:
 
 ::: columns
-column
-Left column .
-column
-Right column .
+:::column
+Left column. 
+:::
+:::column
+Right column. 
+:::
 :::
 
-## Bulleted List (H3)
+## Bulleted List 
 
 - apple
 - banana
 - orange
 
-## Markdown Table (H2)
+## Markdown Table
 
 | Gender | Age |
 | ------ | ----|
 | F      | 12  |
 | M      | 13  |
 
-## Inline Math Equation (H2)
+## Inline Math Equation 
 
 This is an inline math equation: $F=m*a$.
 
-## Table of Contents (H2)
+## Table of Contents 
 
 Table of Contents will automatically be generated based on your headings.
 
-## LaTex Equation (H2)
+## LaTex Equation 
 
 This is a non-inline math equation:
 
@@ -54,15 +56,17 @@ $$
 F = G\frac{{m_1 \cdot m_2}}{{r^2}}
 $$
 
-## Footnote (H2)
+## Footnote 
 
-This is a footnote[^1].
+Hover over to see the content of the footnote [^1].
 
-## Quote (H2)
+[^1]: This is the content of the footnote. It provides additional information or context related to the text above.
 
-> This is a quoted text.
+## Quote 
 
-## Embedded Images (H2)
+> This is a quoted text. It is used to highlight important texts.
+
+## Embedded Images 
 
 Here are two embedded images:
 
@@ -70,16 +74,29 @@ Here are two embedded images:
 
 ![Image 2](images/image2.jpg)
 
-## Embedded Video (H2)
+## Embedded Video:
 
-Here's an embedded video:
-<video src="https://www.youtube.com/watch?v=T7XuOnb2lcU" controls></video>
+Here's an embedded video : 
 
-## Mermaid Diagram (H2)
+{{< video https://www.youtube.com/embed/wo9vZccmqwc controls >}}
 
-```mermaid
+
+## Mermaid Diagram 
+
+```{mermaid}
 graph TD;
   A-->B;
   A-->C;
   B-->D;
   C-->D;
+```
+## Citations
+
+[cite:Author2023]: { @article{Author2023,
+  title = {Sample Title},
+  author = {Author, A.},
+  journal = {Sample Journal},
+  year = {2023},
+  volume = {1},
+  pages = {1-10},
+}

@@ -7,12 +7,16 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.ipynb
+        text: About
 
 format:
   html:
     theme: cosmo
     toc: true
+
+mermaid:
+  engine: mmdc
 
 
 
